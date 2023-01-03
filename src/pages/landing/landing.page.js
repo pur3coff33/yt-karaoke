@@ -8,11 +8,11 @@ const LandingPage = () => {
 
     return<>
         <VStack w={'100%'} spacing={'1rem'}>
-            <Flex w={'100%'} p={'1rem'} justifyContent={'center'} alignItems='center' backgroundImage={`url(${backgroundImageURL})`} backgroundPosition='center' minHeight={'20rem'}>
-                <VStack p='1rem' spacing={'2rem'} bgColor='whiteAlpha.700' borderRadius={'0.3rem'}>
+            <Flex w={'100%'} p={'1rem'} justifyContent={'center'} alignItems='center' background={`url(${backgroundImageURL})`} backgroundPosition='center' minHeight={'20rem'} bgRepeat='no-repeat'>
+                <VStack p='1rem' spacing={'2rem'} borderRadius={'0.3rem'} bgColor='whiteAlpha.500'>
                     <VStack>
                         <Heading size={'lg'}>YT Karaoke</Heading>
-                        <Text>Youtube karaoke made <strong>EZ</strong>.</Text>
+                        <Text fontSize={'lg'}>Youtube karaoke made <strong><Text display='inline' fontSize={'2xl'} color='orange.400'>EZ</Text></strong>.</Text>
                     </VStack>
                 
                     <HStack spacing={'0.6rem'}>
